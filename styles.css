@@ -1,25 +1,24 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
   color: white;
   position: absolute;
   left: 10%;
-  
 }
 
 body {
   font-family: system-ui;
-	height: 100vh;
-	overflow: hidden;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #000000;
-	background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 }
 
 
@@ -58,58 +57,57 @@ body {
 
 /* Gradient Button */
 .gradient-style .flex-center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gradient-style .noselect {
   -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-		-webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .gradient-style .gradient-button {
-	width: 150px;
-	height: 50px;
-	cursor: pointer;
-	border: none;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
   margin: 0px 30px;
-	border-radius: 25px;
-	background-color: #50d8d7;
-	background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
-	transition: 500ms;
+  border-radius: 25px;
+  background-color: #50d8d7;
+  background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
+  transition: 500ms;
 }
 
 .gradient-style .gradient-button::after {
-	width: 143px;
-	height: 43px;
-	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	content: 'Gradient';
-	font-size: 20px;
-	color: #eee;
-	border-radius: 25px;
-	background-color: #222;
-	transition: 500ms;
-  
+  width: 143px;
+  height: 43px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "Gradient";
+  font-size: 20px;
+  color: #eee;
+  border-radius: 25px;
+  background-color: #222;
+  transition: 500ms;
 }
 
 .gradient-style .gradient-button:hover::after {
-	font-size: 25px;
-	background-color: transparent;
+  font-size: 25px;
+  background-color: transparent;
 }
 
 .gradient-style .gradient-button:hover {
-	transform: scale(0.9);
-	background-color: #923993;
-	background-image: linear-gradient(316deg, #923993 0%, #50d8d7 70%);
+  transform: scale(0.9);
+  background-color: #923993;
+  background-image: linear-gradient(316deg, #923993 0%, #50d8d7 70%);
   transition: 500ms;
 }
 
@@ -125,63 +123,61 @@ body {
 
 
 
-
-
 /* Glowy Gradient Button */
 .glowy-gradient-style .flex-center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .glowy-gradient-style .noselect {
   -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-		-webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .glowy-gradient-style .gradient-button {
-	width: 150px;
-	height: 50px;
+  width: 150px;
+  height: 50px;
   margin: 0px 30px;
-	cursor: pointer;
-	border: none;
-	border-radius: 25px;
-	background-color: #50d8d7;
-	background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
-	transition: 500ms;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  background-color: #50d8d7;
+  background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
+  transition: 500ms;
   box-shadow: 0 0 20px #1b86f9;
 }
 
 .glowy-gradient-style .gradient-button::after {
-	width: 143px;
-	height: 43px;
-	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	content: 'Glowy-Grad';
-	font-size: 20px;
-	color: #eee;
-	border-radius: 25px;
-	background-color: #222;
-	transition: 500ms;
+  width: 143px;
+  height: 43px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "Glowy-Grad";
+  font-size: 20px;
+  color: #eee;
+  border-radius: 25px;
+  background-color: #222;
+  transition: 500ms;
 }
 
 .glowy-gradient-style .gradient-button:hover::after {
-	font-size: 25px;
-	background-color: transparent;
+  font-size: 25px;
+  background-color: transparent;
 }
 
 .glowy-gradient-style .gradient-button:hover {
   transform: scale(0.9);
   box-shadow: 0 0 20px #1b86f9;
-	background-color: #923993;
-	background-image: linear-gradient(316deg, #923993 0%, #50d8d7 70%);
+  background-color: #923993;
+  background-image: linear-gradient(316deg, #923993 0%, #50d8d7 70%);
   transition: 500ms;
 }
 
