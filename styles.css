@@ -119,7 +119,7 @@ body {
 }
 
 .gradient-style .gradient-button:active {
-  transform: scale(1.1);
+  transform: scale(0.7);
   transition: 200ms;
 }
 
@@ -190,7 +190,7 @@ body {
 }
 
 .glowy-gradient-style .gradient-button:active {
-  transform: scale(0.8);
+  transform: scale(0.7);
   box-shadow: 0 0 70px #1b86f9;
   transition: 200ms;
 }
