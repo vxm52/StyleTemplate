@@ -1,3 +1,4 @@
+/* Page Formatting */
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +7,7 @@
 
 h1 {
   color: white;
-  position: absolute;
-  left: 10%;
+  margin-bottom: 0;
 }
 
 body {
@@ -21,9 +21,23 @@ body {
   background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 }
 
+.button-align {
+  text-align: center;
+}
+
+.feature-box {
+  text-align: center;
+  display: inline;
+  margin: 10px 0;
+}
 
 
 /* Glowy Button */
+.glowy-style {
+  position: relative;
+  top: 10px;
+  margin-bottom: 10px;
+}
 .glowy-style .glowy-button {
   font-size: 20px;
   background-color: #1b86f9;
@@ -31,7 +45,6 @@ body {
   color: #fff;
   border-radius: 10px;
   padding: 10px 20px;
-  margin: 0px 30px;
   cursor: pointer;
   transition: 500ms;
   box-shadow: 0 0 20px #1b86f9;
@@ -57,7 +70,7 @@ body {
 
 /* Gradient Button */
 .gradient-style .flex-center {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
 }
@@ -77,11 +90,12 @@ body {
   height: 50px;
   cursor: pointer;
   border: none;
-  margin: 0px 30px;
   border-radius: 25px;
   background-color: #50d8d7;
   background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
   transition: 500ms;
+  padding-bottom: 42.5px;
+  padding-left: 3.5px;
 }
 
 .gradient-style .gradient-button::after {
@@ -125,7 +139,7 @@ body {
 
 /* Glowy Gradient Button */
 .glowy-gradient-style .flex-center {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
 }
@@ -140,10 +154,9 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-.glowy-gradient-style .gradient-button {
+.glowy-gradient-style .glowy-gradient-button {
   width: 150px;
   height: 50px;
-  margin: 0px 30px;
   cursor: pointer;
   border: none;
   border-radius: 25px;
@@ -151,9 +164,11 @@ body {
   background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
   transition: 500ms;
   box-shadow: 0 0 20px #1b86f9;
+  padding-bottom: 42.5px;
+  padding-left: 3.5px;
 }
 
-.glowy-gradient-style .gradient-button::after {
+.glowy-gradient-style .glowy-gradient-button::after {
   width: 143px;
   height: 43px;
   position: absolute;
@@ -168,12 +183,12 @@ body {
   transition: 500ms;
 }
 
-.glowy-gradient-style .gradient-button:hover::after {
+.glowy-gradient-style .glowy-gradient-button:hover::after {
   font-size: 25px;
   background-color: transparent;
 }
 
-.glowy-gradient-style .gradient-button:hover {
+.glowy-gradient-style .glowy-gradient-button:hover {
   transform: scale(0.9);
   box-shadow: 0 0 20px #1b86f9;
   background-color: #923993;
@@ -181,11 +196,11 @@ body {
   transition: 500ms;
 }
 
-.glowy-gradient-style .gradient-button:focus {
+.glowy-gradient-style .glowy-gradient-button:focus {
   outline: none;
 }
 
-.glowy-gradient-style .gradient-button:active {
+.glowy-gradient-style .glowy-gradient-button:active {
   transform: scale(0.7);
   box-shadow: 0 0 70px #1b86f9;
   transition: 200ms;
