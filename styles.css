@@ -31,6 +31,19 @@ body {
   margin: 10px 0;
 }
 
+.generic-style {
+  position: absolute !important;
+  top: 10% !important;
+  left: 10% !important;
+}
+
+.genericButton {
+  border: 2px solid black !important;
+  background-color: grey !important;
+  box-shadow: 0 0 0px white !important;
+  font-size: 16px !important;
+  padding: 5px 10px !important;
+}
 
 /* Glowy Button */
 .glowy-style {
